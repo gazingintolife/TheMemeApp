@@ -1,0 +1,20 @@
+{
+  "name": "thememeapp",
+  "version": "1.0.0",
+  "description": "A pseudo-anon social media app to share and explore memes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Avinash Rathee",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
